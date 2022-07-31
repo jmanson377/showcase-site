@@ -1,25 +1,13 @@
 import type { Component } from 'solid-js';
+import NavigationBar from './components/NavigationBar';
 
 import logo from './logo.svg';
 import styles from './App.module.css';
 
 const App: Component = () => {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <p class='text-4xl text-red-400 tracking-widest'>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
+    <div class="bg-slate-600 w-50 h-500">
+      <NavigationBar/>
     </div>
   );
 };
