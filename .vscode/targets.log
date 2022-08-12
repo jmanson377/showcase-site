@@ -1,0 +1,262 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Fri Aug 12 20:55:47 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+NVM_INC = /Users/jamiemanson/.nvm/versions/node/v18.7.0/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/jamiemanson/Code/personal/showcase-site
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+WARP_IS_LOCAL_SHELL_SESSION = 1
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /Users/jamiemanson/Code/personal/showcase-site
+# environment
+WARP_USE_SSH_WRAPPER = 1
+# environment
+PATH = /Users/jamiemanson/.nvm/versions/node/v18.7.0/bin:/Users/jamiemanson/go/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SPACESHIP_VERSION = 3.16.7
+# environment
+GOPATH = /Users/jamiemanson/go
+# environment
+NVM_BIN = /Users/jamiemanson/.nvm/versions/node/v18.7.0/bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.YVEbtu460t/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /Users/jamiemanson/Code/personal/showcase-site
+# environment
+WARP_PS1 = $(spaceship_prompt)
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /Users/jamiemanson/.nvm/versions/node/v18.7.0/share/man:/opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/jamiemanson
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/jamiemanson/Library/Application Support/Code/CachedData/da76f93349a72022ca4670c1b84860304616aaa2
+# environment
+LOGNAME = jamiemanson
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+NVM_CD_FLAGS = -q
+# environment
+ZSH = /Users/jamiemanson/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = jamiemanson
+# makefile
+.DEFAULT_GOAL := build-docker
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = WarpTerminal
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/wx/dkjs_r6936s6w3f40543gk080000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/jamiemanson/Library/Application Support/Code/1.70.0-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = v0.2022.08.01.09.12.stable_02
+# environment
+NVM_DIR = /Users/jamiemanson/.nvm
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.542903.542909.23C8D84C-A331-46BB-B5DF-EDF58DACFF4D
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0:2
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+CONDA_CHANGEPS1 = false
+# environment
+SPACESHIP_ROOT = /Users/jamiemanson/.oh-my-zsh/custom/themes/spaceship-prompt
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 1387
+# variable set hash-table stats:
+# Load=83/1024=8%, Rehash=0, Collisions=1/106=1%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777231, inode 475869): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-31 12:14:13
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build-docker:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	docker build -t showcase-app .
+	
+
+run-docker:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 5):
+	docker run -d -p 3000:3000 showcase-app:latest
+	
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/18=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Fri Aug 12 20:55:47 2022
+
+ 
+make: *** No rule to make target `all'.  Stop.
+
